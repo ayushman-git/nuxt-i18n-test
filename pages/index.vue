@@ -3,6 +3,9 @@
     <h1>{{ $t('welcome') }}</h1>
     <h2>Interpolation Eg</h2>
     <p>{{ $t('interpolation', { value: '343' }) }}</p>
+
+    <h2>Pluralization</h2>
+    <p>{{ $tc('car', 2) }}</p>
     <nuxt-link :to="switchLocalePath('en')">English</nuxt-link>
     <nuxt-link :to="switchLocalePath('fr')">Français</nuxt-link>
     <nuxt-link :to="switchLocalePath('es')">Espanol</nuxt-link>

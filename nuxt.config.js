@@ -42,6 +42,7 @@ export default {
         en: {
           welcome: 'Welcome',
           interpolation: 'some dynamic {value} in english',
+          car: 'car | cars',
           about: {
             heading: 'About'
           }
@@ -49,6 +50,7 @@ export default {
         fr: {
           welcome: 'Bienvenue',
           interpolation: 'some dynamic {value} in french',
+          car: 'french car | french cars',
           about: {
             heading: 'About French',
           }
@@ -56,6 +58,7 @@ export default {
         es: {
           welcome: 'Bienvenido',
           interpolation: 'some dynamic {value} in espanol',
+          car: 'spanish car | spanish cars',
           about: {
             heading: 'About Espanol',
           }
